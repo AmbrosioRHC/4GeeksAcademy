@@ -1,0 +1,188 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ambrosio Rodrigo
+    last_name: Hernández Cortés
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Ingeniero Comercial con especialización en Marketing y Finanzas, actualmente cursando un programa de Desarrollo Full-stack. Fundador de Reckless.cl, con una década de experiencia en Comercio Electrónico y Marketing, he liderado estrategias de marketing digital y medios pagados, logrando un crecimiento significativo en ingresos y rentabilidad.
+
+      Poseo habilidades avanzadas en SEO-SEM, desarrollo de productos, y análisis de datos. Apasionado por la innovación tecnológica, busco oportunidades en equipos ágiles y dinámicos para aplicar mis conocimientos y experiencia en nuevos desafíos profesionales dentro del sector tecnológico.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: ambrosio.rhc@gmail.com #optional
+    phone: +56957589847 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/AmbrosioRHC
+    github: AmbrosioRHC
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Surf
+
+      - item: Mountain bike
+
+      - item: Lectura
+
+      - item: Música
+
+# Your previous education
+education:
+    - degree: Ingeniería Comercial mención Marketing
+      university: Universidad Andrés Bello, Viña del Mar, Chile
+      time: 2010 - 2015
+      details: |
+        Describe tu estudio aquí lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Fundador de Reckless.cl
+          - Planificación y desarrollo de estrategias de marketing y digital
+
+    - degree: Diplomado en Finanzas
+      university: Pontificia Universidad Católica de Chile
+      time: 2022 - 2023
+      details: |
+        Describe tu estudio aquí lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+    - degree: Full-stack Developer
+      university: 4Geeks Academy
+      time: 2024 – presente
+      details: |
+        Describe tu estudio aquí lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Product Marketing Manager
+      time: 2013 - 2023
+      company: Reckless.cl
+      details: |
+        Fundador de Reckless.cl, Planificación y desarrollo de estrategias de marketing y digital. Implementación y optimización de campañas pagadas con enfoque en el crecimiento. Análisis y medición de KPIs, logrando un aumento del 14% en ingresos y un aumento del 87% en rentabilidad en 2023. Optimización de estrategias SEO-SEM, alcanzando la tercera posición en Google para productos clave. Desarrollo de productos, utilizando herramientas de análisis de mercado y MVPs para identificar bestsellers.
+
+# Your project portfolio
+projects:
+    intro: >
+      Puedes listar tus proyectos paralelos o bibliotecas de código abierto en esta sección. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Una plantilla de sitio web responsiva diseñada para ayudar a las startups a promover, comercializar y vender sus productos."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Una plantilla de sitio web responsiva diseñada para ayudar a los desarrolladores/diseñadores web a comercializar sus servicios."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Una plantilla de sitio web responsiva diseñada para ayudar a las startups a promover sus productos o servicios y atraer usuarios e inversores."
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Una solución de plantilla de sitio web integral para que las startups/desarrolladores comercialicen sus aplicaciones móviles."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Un tema de una sola página responsivo de Bootstrap diseñado para ayudar a los desarrolladores de aplicaciones a promocionar sus aplicaciones móviles."
+
+skills:
+    toolset:
+      - name: Python
+        level: 95%
+
+      - name: Javascript
+        level: 90%
+
+      - name: SQL
+        level: 85%
+
+      - name: React
+        level: 80%
+
+      - name: Node.js
+        level: 75%
+
+      - name: GIT
+        level: 70%
+
+      - name: Tableau
+        level: 65%
+
+# Additional information
+additional_info:
+    languages:
+      - idiom: English
+        level: Advanced (C2 Proficient, 81 EF SET)
+    
+    soft_skills:
+      - item: Honestidad
+
+      - item: Responsabilidad
+
+      - item: Constancia
+
+      - item: Disciplina
+
+    hobbies:
+      - item: Surf
+
+      - item: Mountain bike
+
+      - item: Lectura
+
+      - item: Música
+
+    courses:
+      - item: Data Analyst in SQL - Datacamp
+
+      - item: Valorización de empresas - PUC
